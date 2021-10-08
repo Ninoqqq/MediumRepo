@@ -4,7 +4,7 @@ object_detection:
   restart: always
   environment:
      - TERM=xterm
-  hostname: '127.0.0.1'
+  hostname: '20.67.50.87'
   ports:
      - "8888:8888"         #JupyterNB
 
